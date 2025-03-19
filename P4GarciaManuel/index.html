@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel García Rey</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="IMG/caraManuel.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#Inicio">Inicio</a>
+            <a href="#sobremi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#idiomas">Idiomas</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <article id="foto">
+            <img src="IMG/caraManuel.jpg" alt="Imagen de presentacion" id="manu">
+        </article>
+        <article id="info">
+            <h1>Manuel García Rey</h1>
+            <h2>Estudiante de 1º de ciclo superior de fp DAM (Desarrollo de app Multiplataforma)</h2>
+            <p>Me adentro en el mundo del desarrollo con entusiasmo, buscando siempre crear soluciones prácticas y eficientes. Mi curiosidad y pasión me impulsan a explorar nuevas herramientas, lenguajes y enfoques para seguir creciendo como profesional.</p>
+        </article>
+    </main>
+   
+    <section id="sobremi">
+        <h1>Sobre mí</h1>
+        <div class="grid-container">
+            <article id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>MySQL</li>
+                    <li>Baloncesto</li>
+                    <li>Java</li>
+                </ul>
+            </article>
+            <article id="formacion">
+                <h2>Formación</h2>
+                <ul>
+                    <li>Bachillerato Ciencias Sociales en el IES Rego de Trabe,Culleredo (2021-2023)</li>
+                    <li>Un Año en Arquitectura Técnica en la UDC(2023-2024)</li>
+                    <li>Ciclo DAM en el CIFP Liceo la Paz, A Coruña (2024-Actualidad) </li>
+                </ul>
+            </article>
+            <article id="intereses">
+                <h2>Intereses</h2>
+                <p>Desde pequeño disfruté las tecnologias como parte de mi dia a dia y manera de evadirme y distraerme y he querido seguir teniendolas presentes en mi vida desarrollando aplicaciones y aprendiendo de este mundillo.  </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h1>Proyectos anteriores</h1>
+        <div class="proyectos-contenedor">
+            <article>
+                <h2>Página web de viajes</h2>
+                <div class="imagen-container">
+                    <a href="https://github.com/Manuelgr48/PCSSGarciaManuel">
+                        <img src="IMG/paginaViajes.png" alt="Imagen página web">
+                    </a>
+                </div>
+                <p>Pagina Web realizada por mi anteriormente.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="idiomas">
+        <h1>Idiomas</h1>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Idioma</th>
+                        <th>Nivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ingles</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Gallego</td>
+                        <td>Nativo</td>
+                    </tr>
+                    <tr>
+                        <td>Español</td>
+                        <td>Nativo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <h1>Experiencia</h1>
+        <article>
+            <p>A día de hoy aun no he trabajado y me he dedicado a estudiar, pero miro por empezar a trabajar y ganarme mi sueldo en corto plazo.</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <fieldset>
+            <p>
+                <label for="nom">Nombre:</label>
+                <br>
+                <input type="text" id="nom" name="nom" placeholder="Escriba su nombre completo" size="50vw" required>
+            </p>
+            <br>
+            <p>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Ej: ejemplo@gmail.com" size="50vw" required>
+            </p>
+            <br>
+            <p>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="3" cols="50" placeholder="Introduzca aquí su mensaje" required></textarea>
+            </p>
+            <br>
+            <p><input id="boton" type="submit" onclick="alert('Se ha enviado su mensaje')"></p>
+        </fieldset>
+    </section>
+
+    <section id="rrss">
+        <h2>Redes Sociales</h2>
+        <div>
+            <a href="mailto:manuel.garcia.rey.48@gmail.com"><img src="IMG/gmail.png" alt="gmail" id="correo"></a>
+            <a href="https://https://github.com/Manuelgr48"><img src="IMG/github.png" alt="GitHub" id="github"></a>
+            <a href="https://https://x.com/Manuelgr48"><img src="IMG/x.png" alt="X(twitter)" id="twitter"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Manuel García Rey, todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
